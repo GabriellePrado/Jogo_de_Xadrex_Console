@@ -7,6 +7,12 @@ namespace Xadrez_Console
         static void Main(string[] args)
         {
             Tabuleiro tabuleiroNovo = new Tabuleiro(8, 8);
+           
+
+            Tela.imprimirTabuleiro(tabuleiroNovo);
+
+            Console.WriteLine(  "Deu certo");
+
             Console.ReadLine();
 
         }
